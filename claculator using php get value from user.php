@@ -2,7 +2,7 @@
 <h1>Calculator</h1>
     <form method="Get">
         
-    <label>First Number:</label> <input type="text" name="v1" placeholder="Enter first number" required><br>
+    <label> Enter First Number:</label> <input type="text" name="v1" placeholder="Enter first number" required><br>
     <label> Operator:</label><input type="text" name="opr" required><br>
     <label> Enter Second Number:</label><input type="text" name="v2" placeholder="Enter second number" required><br>
     
@@ -31,7 +31,8 @@
         
         else 
             
-            echo "Invalid operator";
+            echo "Invalid operator ,<br>";
+            echo "Please Enter a valid Operator";
     }
 
     ?>
